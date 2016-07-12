@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+  <rect width="64" height="16" fill="#FF0000" y="0"/>
+  <rect width="64" height="16" fill="#FFFF00" y="16"/>
+  <rect width="64" height="16" fill="#00FF00" y="32"/>
+  <rect width="64" height="16" fill="#0000FF" y="48"/>
+</svg>
+<!--
+  Square consisting of rows red, yellow, green, blue
+-->
