@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g style="opacity: 0.5">
+    <path fill="#090" d="M0 0h200v200H0z"/>
+    <circle fill="#F00" cx="100" cy="100" r="100"/>
+    <path fill="#FF0" d="M40 160h120L100 40z"/>
+  </g>
+</svg>
+<!--
+  Opacity: 0.5 with inline style on group
+-->

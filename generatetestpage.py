@@ -24,23 +24,17 @@ for filename in os.listdir(svgPath):
             desc = myfile.readlines()
             glyphs[code]['desc'] = desc[-2].strip()
 
+# Create a test block for each glyph
 html = ''
-
-
-# <div>
-#   <span class="glyph">A</span>
-#   <img src="./src/svg/0041.svg">
-#   <span class="info">Default glyph image: Square consisting of rows red, yellow, green, blue</span>
-# </div>
-
 for key in sorted(glyphs):
     html += '<div>'
     html += '<span class="glyph">'+ glyphs[key]['char'] +'</span>'
-    html += '<img src="'+ glyphs[key]['file'] +'">'
-    html += '<span class="info">'+ glyphs[key]['desc'] +'</span>'
+    html += '<img class="image" src="'+ glyphs[key]['file'] +'">'
+    html += '<span class="info">'+ key +': '+ glyphs[key]['desc'] +'</span>'
     html += '</div>'
     html += "\n"
 
+# Barf out the HTML for the test page
 print """
 <!DOCTYPE html>
 <html>
@@ -56,13 +50,18 @@ print """
   body {
     font-family: testfont, monospace;
   }
+  div {
+    margin-bottom: 20px;
+  }
   .glyph {
     font-size: 3em;
     line-height: 1;
+    margin-right: 20px;
   }
-  div img {
+  .image {
     max-height: 3em;
     vertical-align: bottom;
+    margin-right: 20px;
   }
   </style>
 </head>

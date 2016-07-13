@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,25 +13,28 @@
   body {
     font-family: testfont, monospace;
   }
+  div {
+    margin-bottom: 20px;
+  }
   .glyph {
     font-size: 3em;
     line-height: 1;
+    margin-right: 20px;
   }
-  div img {
+  .image {
     max-height: 3em;
     vertical-align: bottom;
+    margin-right: 20px;
   }
   </style>
 </head>
 <body>
 
-
-  <div>
-    <span class="glyph">A</span>
-    <img src="./src/svg/0041.svg">
-    <span class="info">Default glyph image: Square consisting of rows red, yellow, green, blue</span>
-  </div>
+<div><span class="glyph">A</span><img class="image" src="./src/svg/0041.svg"><span class="info">0041: Original SVG</span></div>
+<div><span class="glyph">B</span><img class="image" src="./src/svg/0042.svg"><span class="info">0042: Rotated 90 degrees with inline style on group</span></div>
+<div><span class="glyph">C</span><img class="image" src="./src/svg/0043.svg"><span class="info">0043: Opacity: 0.5 with inline style on group</span></div>
 
 
 </body>
 </html>
+
