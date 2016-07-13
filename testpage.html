@@ -2,21 +2,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>color!</title>
+  <title>LapisLegit!</title>
   <meta charset="utf-8">
   <style type="text/css">
   @font-face {
     font-family: testfont;
-    src: url("testfont.ttf");
-  }
-
-  body {
-    font-family: testfont, monospace;
+    src: url("testfont.ttf?v=0.8432085219574882");
   }
   div {
-    margin-bottom: 20px;
+    margin: 20px;
   }
   .glyph {
+    font-family: testfont, monospace;
     font-size: 3em;
     line-height: 1;
     margin-right: 20px;
@@ -29,10 +26,15 @@
   </style>
 </head>
 <body>
+<h1>LapisLegit, a font to test the OpenType SVG table</h1>
+<p>By <a href="https://twitter.com/pixelambacht">Roel Nieskens</a>. More info on <a href="https://github.com/RoelN/LapisLegit">Github</a>!</p>
+<hr>
 
 <div><span class="glyph">A</span><img class="image" src="./src/svg/0041.svg"><span class="info">0041: Original SVG</span></div>
 <div><span class="glyph">B</span><img class="image" src="./src/svg/0042.svg"><span class="info">0042: Rotated 90 degrees with inline style on group</span></div>
 <div><span class="glyph">C</span><img class="image" src="./src/svg/0043.svg"><span class="info">0043: Opacity: 0.5 with inline style on group</span></div>
+<div><span class="glyph">D</span><img class="image" src="./src/svg/0044.svg"><span class="info">0044: Animating opacity from 0.1 to 1</span></div>
+<div><span class="glyph">E</span><img class="image" src="./src/svg/0045.svg"><span class="info">0045: JavaScript alert saying "Hello from glyph 0045!"</span></div>
 
 
 </body>

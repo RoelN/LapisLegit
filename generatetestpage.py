@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 
 import os
+import random
 
 svgPath = './src/svg/'
 
@@ -39,21 +40,18 @@ print """
 <!DOCTYPE html>
 <html>
 <head>
-  <title>color!</title>
+  <title>LapisLegit!</title>
   <meta charset="utf-8">
   <style type="text/css">
   @font-face {
     font-family: testfont;
-    src: url("testfont.ttf");
-  }
-
-  body {
-    font-family: testfont, monospace;
+    src: url("testfont.ttf?v=""" + repr(random.random()) + """");
   }
   div {
-    margin-bottom: 20px;
+    margin: 20px;
   }
   .glyph {
+    font-family: testfont, monospace;
     font-size: 3em;
     line-height: 1;
     margin-right: 20px;
@@ -66,6 +64,9 @@ print """
   </style>
 </head>
 <body>
+<h1>LapisLegit, a font to test the OpenType SVG table</h1>
+<p>By <a href="https://twitter.com/pixelambacht">Roel Nieskens</a>. More info on <a href="https://github.com/RoelN/LapisLegit">Github</a>!</p>
+<hr>
 """
 
 print (html)

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <style>
+  @-webkit-keyframes fadeglyph {
+    0%   { opacity: 0.1; }
+    100% { opacity: 1; }
+  }
+  @-moz-keyframes fadeglyph {
+    0%   { opacity: 0.1; }
+    100% { opacity: 1; }
+  }
+  @-o-keyframes fadeglyph {
+    0%   { opacity: 0.1; }
+    100% { opacity: 1; }
+  }
+  @keyframes fadeglyph {
+    0%   { opacity: 0.1; }
+    100% { opacity: 1; }
+  }
+  #glyph0044 {
+    -webkit-animation: fadeglyph 3s infinite alternate;
+    -moz-animation:    fadeglyph 3s infinite alternate;
+    -o-animation:      fadeglyph 3s infinite alternate;
+    animation:         fadeglyph 3s infinite alternate;
+  }
+  </style>
+  <g id="glyph0044">
+    <path fill="#090" d="M0 0h200v200H0z"/>
+    <circle fill="#F00" cx="100" cy="100" r="100"/>
+    <path fill="#FF0" d="M40 160h120L100 40z"/>
+  </g>
+</svg>
+<!--
+  Animating opacity from 0.1 to 1
+-->
