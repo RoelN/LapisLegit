@@ -12,4 +12,4 @@ Lapis legit is a frigging [delicious cake made of colorful layers](https://www.g
 
 ## License
 
-LapisLegit is released under the [MIT license](https://github.com/RoelN/ChromaCheck/blob/master/LICENSE.md).
+LapisLegit is released under the [MIT license](https://github.com/RoelN/LapisLegit/blob/master/LICENSE.md).
