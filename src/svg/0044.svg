@@ -17,10 +17,10 @@
     100% { opacity: 1; }
   }
   #glyph0044 {
-    -webkit-animation: fadeglyph 3s infinite alternate;
-    -moz-animation:    fadeglyph 3s infinite alternate;
-    -o-animation:      fadeglyph 3s infinite alternate;
-    animation:         fadeglyph 3s infinite alternate;
+    -webkit-animation: fadeglyph 1s infinite alternate;
+    -moz-animation:    fadeglyph 1s infinite alternate;
+    -o-animation:      fadeglyph 1s infinite alternate;
+    animation:         fadeglyph 1s infinite alternate;
   }
   </style>
   <g id="glyph0044">
