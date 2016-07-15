@@ -60,7 +60,7 @@ print """
   }
   svg,
   .image {
-    max-height: 3em;
+    width: 3em;
     vertical-align: bottom;
     margin-right: 20px;
   }
