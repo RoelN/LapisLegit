@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
-  <g style="transform: rotate(90deg); transform-origin: center;">
+  <g style="transform: rotate(10deg); transform-origin: center;">
     <path fill="#090" d="M0 0h200v200H0z"/>
     <circle fill="#F00" cx="100" cy="100" r="100"/>
     <path fill="#FF0" d="M40 160h120L100 40z"/>
   </g>
 </svg>
 <!--
-  Rotated 90 degrees with inline style on group
+  Rotated 10 degrees with inline style on group
 -->
