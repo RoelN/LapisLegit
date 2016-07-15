@@ -1,6 +1,10 @@
 # LapisLegit, a font to test the OpenType SVG table
 
-LapisLegit is a font to test implementations of the [OpenType 'SVG ' table](https://www.microsoft.com/typography/otspec/svg.htm) with. It's not an actual typeface, but contains characters that try (to break) different features of SVG in OpenType. Use this to check for bugs or performance issues in software that implements OpenType's SVG table.
+LapisLegit is a font to test implementations of the [OpenType 'SVG ' table](https://www.microsoft.com/typography/otspec/svg.htm) with. It's not an actual typeface, but contains characters that try (to break) different features of SVG in OpenType. Use this to stress-test and check for bugs or performance issues in software that implements OpenType's SVG table.
+
+## See it in action
+
+You can check the [online version of the LapisLegit test page](https://pixelambacht.nl/lapislegit/) to see how your browser handles all these weird SVGs.
 
 ## How to use
 
