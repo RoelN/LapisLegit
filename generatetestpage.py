@@ -29,12 +29,12 @@ for filename in os.listdir(svgPath):
 # Create a test block for each glyph
 html = ''
 for key in sorted(glyphs):
-    html += '<div>'
-    html += '<span class="glyph">'+ glyphs[key]['char'] +'</span>'
-    html += '<img class="image" src="'+ glyphs[key]['file'] +'">'
-    html += glyphs[key]['content']
-    html += '<span class="info">'+ key +': '+ glyphs[key]['desc'] +'</span>'
-    html += '</div>'
+    html += '<tr>'
+    html += '<td class="glyph">'+ glyphs[key]['char'] +'</td>'
+    html += '<td class="image"><img src="'+ glyphs[key]['file'] +'"></td>'
+    html += '<td class="inline">'+ glyphs[key]['content'] +'</td>'
+    html += '<td class="info">'+ key +': '+ glyphs[key]['desc'] +'</td>'
+    html += '</tr>'
     html += "\n"
 
 # Barf out the HTML for the test page
@@ -52,17 +52,24 @@ print """
   div {
     margin: 20px;
   }
+  th {
+    text-align: left;
+  }
+  .glyph,
+  .inline,
+  .image {
+    weidth: 3em;
+    padding-right: 20px;
+  }
   .glyph {
     font-family: LapisLegit, monospace;
     font-size: 3em;
     line-height: 1;
-    margin-right: 20px;
   }
-  svg,
-  .image {
+  .inline svg,
+  .image img {
     width: 3em;
     vertical-align: bottom;
-    margin-right: 20px;
   }
   </style>
 </head>
@@ -71,11 +78,19 @@ print """
 <p>By <a href="https://twitter.com/pixelambacht">Roel Nieskens</a>. More info on <a href="https://github.com/RoelN/LapisLegit">Github</a>!</p>
 <p>Order of images: font glyph, SVG as image tag, SVG inlined.</p>
 <hr>
+<table>
+  <tr>
+    <th>Glyph</th>
+    <th>Image</th>
+    <th>Inline</th>
+    <th>Description</th>
+  </tr>
 """
 
 print (html)
 
 print """
+</table>
 </body>
 </html>
 """

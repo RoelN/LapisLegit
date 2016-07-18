@@ -7,22 +7,29 @@
   <style type="text/css">
   @font-face {
     font-family: LapisLegit;
-    src: url("dist/LapisLegit.ttf?v=0.8837662695684786");
+    src: url("dist/LapisLegit.ttf?v=0.7503318978918302");
   }
   div {
     margin: 20px;
+  }
+  th {
+    text-align: left;
+  }
+  .glyph,
+  .inline,
+  .image {
+    weidth: 3em;
+    padding-right: 20px;
   }
   .glyph {
     font-family: LapisLegit, monospace;
     font-size: 3em;
     line-height: 1;
-    margin-right: 20px;
   }
-  svg,
-  .image {
+  .inline svg,
+  .image img {
     width: 3em;
     vertical-align: bottom;
-    margin-right: 20px;
   }
   </style>
 </head>
@@ -31,8 +38,15 @@
 <p>By <a href="https://twitter.com/pixelambacht">Roel Nieskens</a>. More info on <a href="https://github.com/RoelN/LapisLegit">Github</a>!</p>
 <p>Order of images: font glyph, SVG as image tag, SVG inlined.</p>
 <hr>
+<table>
+  <tr>
+    <th>Glyph</th>
+    <th>Image</th>
+    <th>Inline</th>
+    <th>Description</th>
+  </tr>
 
-<div><span class="glyph">A</span><img class="image" src="./src/svg/0041.svg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<tr><td class="glyph">A</td><td class="image"><img src="./src/svg/0041.svg"></td><td class="inline"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
   <path fill="#090" d="M0 0h200v200H0z"/>
   <circle fill="#F00" cx="100" cy="100" r="100"/>
   <path fill="#FF0" d="M40 160h120L100 40z"/>
@@ -40,8 +54,8 @@
 <!--
   Original SVG
 -->
-<span class="info">0041: Original SVG</span></div>
-<div><span class="glyph">B</span><img class="image" src="./src/svg/0042.svg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+</td><td class="info">0041: Original SVG</td></tr>
+<tr><td class="glyph">B</td><td class="image"><img src="./src/svg/0042.svg"></td><td class="inline"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
   <g style="transform: rotate(10deg); transform-origin: center;">
     <path fill="#090" d="M0 0h200v200H0z"/>
     <circle fill="#F00" cx="100" cy="100" r="100"/>
@@ -51,8 +65,8 @@
 <!--
   Rotated 10 degrees with inline style on group
 -->
-<span class="info">0042: Rotated 10 degrees with inline style on group</span></div>
-<div><span class="glyph">C</span><img class="image" src="./src/svg/0043.svg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+</td><td class="info">0042: Rotated 10 degrees with inline style on group</td></tr>
+<tr><td class="glyph">C</td><td class="image"><img src="./src/svg/0043.svg"></td><td class="inline"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
   <g style="opacity: 0.5">
     <path fill="#090" d="M0 0h200v200H0z"/>
     <circle fill="#F00" cx="100" cy="100" r="100"/>
@@ -62,8 +76,8 @@
 <!--
   Opacity: 0.5 with inline style on group
 -->
-<span class="info">0043: Opacity: 0.5 with inline style on group</span></div>
-<div><span class="glyph">D</span><img class="image" src="./src/svg/0044.svg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+</td><td class="info">0043: Opacity: 0.5 with inline style on group</td></tr>
+<tr><td class="glyph">D</td><td class="image"><img src="./src/svg/0044.svg"></td><td class="inline"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
   <style>
   @-webkit-keyframes fadeglyph {
     0%   { opacity: 0.1; }
@@ -97,8 +111,8 @@
 <!--
   Animating opacity from 0.1 to 1
 -->
-<span class="info">0044: Animating opacity from 0.1 to 1</span></div>
-<div><span class="glyph">E</span><img class="image" src="./src/svg/0045.svg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+</td><td class="info">0044: Animating opacity from 0.1 to 1</td></tr>
+<tr><td class="glyph">E</td><td class="image"><img src="./src/svg/0045.svg"></td><td class="inline"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
   <script type="text/javascript"><![CDATA[console.log("Hello from glyph 0045!");]]></script>
 
   <path fill="#090" d="M0 0h200v200H0z"/>
@@ -108,9 +122,27 @@
 <!--
   JavaScript console.log saying "Hello from glyph 0045!"
 -->
-<span class="info">0045: JavaScript console.log saying "Hello from glyph 0045!"</span></div>
+</td><td class="info">0045: JavaScript console.log saying "Hello from glyph 0045!"</td></tr>
+<tr><td class="glyph">F</td><td class="image"><img src="./src/svg/0046.svg"></td><td class="inline"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <style>
+    path {
+      transition: fill 1s;
+    }
+    path:hover {
+      fill: black;
+    }
+  </style>
+  <path fill="#090" d="M0 0h200v200H0z"/>
+  <circle fill="#F00" cx="100" cy="100" r="100"/>
+  <path fill="#FF0" d="M40 160h120L100 40z"/>
+</svg>
+<!--
+  Turn background and triangle black on hover
+-->
+</td><td class="info">0046: Turn background and triangle black on hover</td></tr>
 
 
+</table>
 </body>
 </html>
 
