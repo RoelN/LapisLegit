@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
-  <g style="transform-origin: center; transform: rotate(30deg);">
+  <g style="transform-origin: 50% 50%; transform: rotate(30deg);">
     <path fill="#090" d="M0 0h200v200H0z"/>
     <circle fill="#F00" cx="100" cy="100" r="100"/>
     <path fill="#FF0" d="M40 160h120L100 40z"/>
