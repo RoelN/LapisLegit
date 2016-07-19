@@ -8,11 +8,11 @@ You can check the [online version of the LapisLegit test page](https://pixelamba
 
 ## How to use
 
-Run `./buildfont.sh` to generate the font and an HTML test page. It uses [scfbuild](https://github.com/eosrei/scfbuild/) to generate the font, and some high tech computer science to generate the HTML. Open the page in your browser: on the left is the SVG-in-OpenType glyph, followed by the original SVG image, followed by a short description of what's happening in that glyph.
+Run `./buildfont.sh` to generate the font and an HTML test page. It uses [scfbuild](https://github.com/eosrei/scfbuild/) to generate the font, and some high tech computer science to generate the HTML. Open the page in your browser and see the differences in implementation when the SVG is shown as an OpenType glyph, image tag, or inlined SVG document.
 
 ## What does "LapisLegit" mean?
 
-Lapis legit is a frigging [delicious cake made of colorful layers](https://www.google.com/search?tbm=isch&q=lapis+legit)!
+Lapis legit is a [frigging delicious cake made of colorful layers](https://www.google.com/search?tbm=isch&q=lapis+legit)!
 
 ## License
 

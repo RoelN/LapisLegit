@@ -1,16 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
   <style>
-    path {
+    .hoverme {
       transition: fill 1s;
     }
-    path:hover {
+    .hoverme:hover,
+    .hoverme:hover {
       fill: black;
     }
   </style>
-  <path fill="#090" d="M0 0h200v200H0z"/>
-  <circle fill="#F00" cx="100" cy="100" r="100"/>
-  <path fill="#FF0" d="M40 160h120L100 40z"/>
+  <path class="hoverme" fill="#090" d="M0 0h200v200H0z"/>
+  <circle class="hoverme" fill="#F00" cx="100" cy="100" r="100"/>
+  <path class="hoverme" fill="#FF0" d="M40 160h120L100 40z"/>
 </svg>
 <!--
-  Turn background and triangle black on hover, using CSS transition of 1 second
+  Turn each element black on hover, using CSS transition of 1 second
 -->

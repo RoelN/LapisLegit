@@ -31,7 +31,7 @@ html = ''
 for key in sorted(glyphs):
     html += '<tr>'
     html += '<td class="glyph">'+ glyphs[key]['char'] +'</td>'
-    html += '<td class="image"><img src="'+ glyphs[key]['file'] +'"></td>'
+    html += '<td class="image"><img src="'+ glyphs[key]['file'] +'?v='+ repr(random.random()) +'"></td>'
     html += '<td class="inline">'+ glyphs[key]['content'] +'</td>'
     html += '<td class="info">'+ key +': '+ glyphs[key]['desc'] +'</td>'
     html += '</tr>'
