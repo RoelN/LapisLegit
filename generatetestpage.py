@@ -42,7 +42,7 @@ print """
 <!DOCTYPE html>
 <html>
 <head>
-  <title>LapisLegit!</title>
+  <title>LapisLegit, a font to test the OpenType SVG table</title>
   <meta charset="utf-8">
   <style type="text/css">
   @font-face {
@@ -76,7 +76,7 @@ print """
 <body>
 <h1>LapisLegit, a font to test the OpenType SVG table</h1>
 <p>By <a href="https://twitter.com/pixelambacht">Roel Nieskens</a>. More info on <a href="https://github.com/RoelN/LapisLegit">Github</a>!</p>
-<p>Order of images: font glyph, SVG as image tag, SVG inlined.</p>
+<p>If you see black squares or nothing in the first column, your browser doesn't <a href="https://pixelambacht.nl/2014/multicolor-fonts/">support OpenType SVG</a> yet.</p>
 <hr>
 <table>
   <tr>
