@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <foreignObject x="0" y="0" height="200" width="200">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <iframe xmlns="http://www.w3.org/1999/xhtml" width="200" height="200" src="https://pixelambacht.nl" frameborder="0"></iframe>
+    </div>
+  </foreignObject>
+</svg>
+<!--
+  Iframe in foreignObject loading https://pixelambacht.nl
+-->
