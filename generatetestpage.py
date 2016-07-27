@@ -30,10 +30,10 @@ for filename in os.listdir(svgPath):
 html = ''
 for key in sorted(glyphs):
     html += '<tr>'
-    html += '<td class="glyph">'+ glyphs[key]['char'] +'</td>'
+    html += '<td class="glyph" contenteditable>'+ glyphs[key]['char'] +'</td>'
     html += '<td class="image"><img src="'+ glyphs[key]['file'] +'?v='+ repr(random.random()) +'"></td>'
     html += '<td class="inline">'+ glyphs[key]['content'] +'</td>'
-    html += '<td class="info">'+ key +': '+ glyphs[key]['desc'] +'</td>'
+    html += '<td class="info">'+ key +' ('+ glyphs[key]['char'] +'): '+ glyphs[key]['desc'] +'</td>'
     html += '</tr>'
     html += "\n"
 
@@ -77,6 +77,7 @@ print """
 <h1>LapisLegit, a font to test the OpenType SVG table</h1>
 <p>By <a href="https://twitter.com/pixelambacht">Roel Nieskens</a>. More info on <a href="https://github.com/RoelN/LapisLegit">Github</a>!</p>
 <p>If you see black squares or nothing in the first column, your browser doesn't <a href="https://pixelambacht.nl/2014/multicolor-fonts/">support OpenType SVG</a> yet.</p>
+<p><em>At this moment, some glyphs cause browsers to crash. A "!" will be shown instead of the letter. Click and select the cell to enter the characters yourself... if you dare!</p>
 <hr>
 <table>
   <tr>

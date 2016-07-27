@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
   <foreignObject x="0" y="0" height="200" width="200">
     <div xmlns="http://www.w3.org/1999/xhtml">
-      <iframe xmlns="http://www.w3.org/1999/xhtml" width="200" height="200" src="https://pixelambacht.nl" frameborder="0"></iframe>
+      <iframe xmlns="http://www.w3.org/1999/xhtml" width="200" height="200" frameborder="0" src="data:text/html,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Ctitle%3E0051%20iframe%20content%3C%2Ftitle%3E%0A%20%20%3Cstyle%3Ebody%20%7B%20background%3A%20purple%3B%20color%3A%20white%3B%7D%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%3Ch1%3E0051%20iframe%20content%3C%2Fh1%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E%0A"></iframe>
     </div>
   </foreignObject>
 </svg>
 <!--
-  Iframe in foreignObject loading https://pixelambacht.nl
+  Iframe in foreignObject loading a small base64'ed page
 -->
