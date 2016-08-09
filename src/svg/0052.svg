@@ -3,9 +3,9 @@
                              font-family: 'Comic Sans MS', 'Comic Sans', 'Times New Roman';
                              color: lime;
                              fill: #0000ff;">
-    R
+    ABC
   </text>
 </svg>
 <!--
-  The letter "R" in Comic Sans font through SVG's text element
+  The letters "ABC" in Comic Sans font through SVG's text element
 -->
