@@ -29,11 +29,16 @@ for filename in os.listdir(svgPath):
 # Create a test block for each glyph
 html = ''
 for key in sorted(glyphs):
+    character = glyphs[key]['char']
+    if character == "Q":
+        # Crashes Firefox, so show safe character
+        character = "!"
     html += '<tr>'
-    html += '<td class="glyph" contenteditable>'+ glyphs[key]['char'] +'</td>'
+    html += '<td class="glyph" contenteditable>'+ character +'</td>'
     html += '<td class="image"><img src="'+ glyphs[key]['file'] +'?v='+ repr(random.random()) +'"></td>'
     html += '<td class="inline">'+ glyphs[key]['content'] +'</td>'
-    html += '<td class="info">'+ key +' ('+ glyphs[key]['char'] +'): '+ glyphs[key]['desc'] +'</td>'
+    html += '<td class="info"><a href="'+ glyphs[key]['file'] +'">'+ key +'</a>'
+    html += ' ('+ glyphs[key]['char'] +'): '+ glyphs[key]['desc'] +'</td>'
     html += '</tr>'
     html += "\n"
 
@@ -49,9 +54,6 @@ print """
     font-family: LapisLegit;
     src: url("dist/LapisLegit.ttf?v=""" + repr(random.random()) + """");
   }
-  div {
-    margin: 20px;
-  }
   th {
     text-align: left;
   }
@@ -59,7 +61,7 @@ print """
   .inline,
   .image {
     weidth: 3em;
-    padding-right: 20px;
+    padding: 10px 40px 10px 0;
   }
   .glyph {
     font-family: LapisLegit, monospace;
