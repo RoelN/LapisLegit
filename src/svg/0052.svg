@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <text x="0" y="180" style="font-size:200px;
+                             font-family: 'Comic Sans MS', 'Comic Sans', 'Times New Roman';
+                             color: lime;
+                             fill: #0000ff;">
+    R
+  </text>
+</svg>
+<!--
+  The letter "R" in Comic Sans font through SVG's text element
+-->
