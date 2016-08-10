@@ -61,7 +61,8 @@ print """
   .inline,
   .image {
     weidth: 3em;
-    padding: 10px 40px 10px 0;
+    padding: 20px;
+    background: #9ef;
   }
   .glyph {
     font-family: LapisLegit, monospace;

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <style type="text/css">
+  #firstthingy {
+    mix-blend-mode: overlay;
+  }
+  #secondthingy {
+    mix-blend-mode: screen;
+  }
+  #thirdthingy {
+    mix-blend-mode: darken;
+  }
+  </style>
+  <g style="isolation: isolate">
+  <path id="firstthingy" fill="#090" d="M0 0h200v200H0z"/>
+  <circle id="secondthingy" fill="#F00" cx="100" cy="100" r="100"/>
+  <path id="thirdthingy" fill="#FF0" d="M40 160h120L100 40z"/>
+  </g>
+</svg>
+<!--
+  Media queries: < 600px image will turn greyscale, < 300px it will get white strokes
+-->
