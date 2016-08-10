@@ -16,7 +16,7 @@
     }
   </style>
   <circle id="target" stroke="red" stroke-width="5" fill="none"
-          cx="50%" cy="50%" r="12" />
+          cx="50%" cy="50%" r="45%" />
   <image xlink:href="0053.svg"
          x="25%" y="25%" width="50%" height="50%" />
   <image xlink:href="#target"
