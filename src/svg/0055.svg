@@ -17,5 +17,5 @@
   </g>
 </svg>
 <!--
-  Media queries: < 600px image will turn greyscale, < 300px it will get white strokes
+  CSS blend modes: using mix-blend-mode on each of the three elements in the SVG
 -->
