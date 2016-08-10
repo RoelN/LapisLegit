@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <style type="text/css">
+  @media screen and (max-width: 600px) {
+    #firstshape {
+      fill: #666;
+    }
+    #secondshape {
+      fill: #999;
+    }
+    #thirdshape {
+      fill: #ccc;
+    }
+  }
+  @media screen and (max-width: 300px) {
+    #firstshape {
+      stroke: #fff;
+      stroke-width: 6px;
+    }
+    #secondshape {
+      stroke: #fff;
+      stroke-width: 6px;
+    }
+    #thirdshape {
+      stroke: #fff;
+      stroke-width: 6px;
+    }
+  }
+  </style>
+  <path id="firstshape" fill="#090" d="M0 0h200v200H0z"/>
+  <circle id="secondshape" fill="#F00" cx="100" cy="100" r="100"/>
+  <path id="thirdshape" fill="#FF0" d="M40 160h120L100 40z"/>
+</svg>
+<!--
+  Media queries: < 600px image will turn greyscale, < 300px it will get white strokes
+-->
