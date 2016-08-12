@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<!-- <svg viewBox="0 0 125 115"> -->
+  <style type="text/css">
+    #rainbowtext {
+      font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+    }
+  </style>
+  <defs>
+    <linearGradient id="rainbow" x1="0" x2="0" y1="0" y2="100%" gradientUnits="userSpaceOnUse" >
+      <stop stop-color="#FF5B99" offset="0%"/>
+      <stop stop-color="#FF5447" offset="20%"/>
+      <stop stop-color="#FF7B21" offset="40%"/>
+      <stop stop-color="#EAFC37" offset="60%"/>
+      <stop stop-color="#4FCB6B" offset="80%"/>
+      <stop stop-color="#51F7FE" offset="100%"/>
+    </linearGradient>
+  </defs>
+    <text fill="url(#rainbow)" id="rainbowtext">
+      <tspan
+        font-size="30"
+        x="0"
+        y="30">
+        gradient
+      </tspan>
+      <tspan font-size="65" x="0" dy="60">text</tspan>
+      <tspan font-size="20" x="0" dy="20">all up in here</tspan>
+    </text>
+</svg>
+<!--
+  Gradient text, taken from http://codepen.io/brenna/pen/mybQVx
+-->
