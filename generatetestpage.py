@@ -60,7 +60,7 @@ print """
   .glyph,
   .inline,
   .image {
-    weidth: 3em;
+    width: 3em;
     padding: 20px;
     background: #9ef;
   }

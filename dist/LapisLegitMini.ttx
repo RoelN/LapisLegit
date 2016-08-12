@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="3.0">
+
+  <GlyphOrder>
+    <!-- The 'id' attribute is only for humans; it is ignored when parsed. -->
+    <GlyphID id="0" name=".notdef"/>
+    <GlyphID id="1" name="A"/>
+  </GlyphOrder>
+
+  <head>
+    <!-- Most of this table will be recalculated by the compiler -->
+    <tableVersion value="1.0"/>
+    <fontRevision value="1.0"/>
+    <checkSumAdjustment value="0xe9e20cac"/>
+    <magicNumber value="0x5f0f3cf5"/>
+    <flags value="00000000 00001011"/>
+    <unitsPerEm value="2048"/>
+    <created value="Wed Aug 10 19:56:00 2016"/>
+    <modified value="Thu Aug 11 12:37:43 2016"/>
+    <xMin value="0"/>
+    <yMin value="0"/>
+    <xMax value="2048"/>
+    <yMax value="2048"/>
+    <macStyle value="00000000 00000000"/>
+    <lowestRecPPEM value="8"/>
+    <fontDirectionHint value="2"/>
+    <indexToLocFormat value="0"/>
+    <glyphDataFormat value="0"/>
+  </head>
+
+  <hhea>
+    <tableVersion value="1.0"/>
+    <ascent value="2048"/>
+    <descent value="0"/>
+    <lineGap value="184"/>
+    <advanceWidthMax value="2048"/>
+    <minLeftSideBearing value="0"/>
+    <minRightSideBearing value="0"/>
+    <xMaxExtent value="2048"/>
+    <caretSlopeRise value="1"/>
+    <caretSlopeRun value="0"/>
+    <caretOffset value="0"/>
+    <reserved0 value="0"/>
+    <reserved1 value="0"/>
+    <reserved2 value="0"/>
+    <reserved3 value="0"/>
+    <metricDataFormat value="0"/>
+    <numberOfHMetrics value="2"/>
+  </hhea>
+
+  <maxp>
+    <!-- Most of this table will be recalculated by the compiler -->
+    <tableVersion value="0x10000"/>
+    <numGlyphs value="2"/>
+    <maxPoints value="4"/>
+    <maxContours value="1"/>
+    <maxCompositePoints value="0"/>
+    <maxCompositeContours value="0"/>
+    <maxZones value="2"/>
+    <maxTwilightPoints value="0"/>
+    <maxStorage value="1"/>
+    <maxFunctionDefs value="1"/>
+    <maxInstructionDefs value="0"/>
+    <maxStackElements value="64"/>
+    <maxSizeOfInstructions value="0"/>
+    <maxComponentElements value="0"/>
+    <maxComponentDepth value="0"/>
+  </maxp>
+
+  <OS_2>
+    <!-- The fields 'usFirstCharIndex' and 'usLastCharIndex'
+         will be recalculated by the compiler -->
+    <version value="4"/>
+    <xAvgCharWidth value="1792"/>
+    <usWeightClass value="400"/>
+    <usWidthClass value="5"/>
+    <fsType value="00000000 00000000"/>
+    <ySubscriptXSize value="1331"/>
+    <ySubscriptYSize value="1433"/>
+    <ySubscriptXOffset value="0"/>
+    <ySubscriptYOffset value="286"/>
+    <ySuperscriptXSize value="1331"/>
+    <ySuperscriptYSize value="1433"/>
+    <ySuperscriptXOffset value="0"/>
+    <ySuperscriptYOffset value="983"/>
+    <yStrikeoutSize value="102"/>
+    <yStrikeoutPosition value="530"/>
+    <sFamilyClass value="0"/>
+    <panose>
+      <bFamilyType value="2"/>
+      <bSerifStyle value="0"/>
+      <bWeight value="5"/>
+      <bProportion value="3"/>
+      <bContrast value="0"/>
+      <bStrokeVariation value="0"/>
+      <bArmStyle value="0"/>
+      <bLetterForm value="0"/>
+      <bMidline value="0"/>
+      <bXHeight value="0"/>
+    </panose>
+    <ulUnicodeRange1 value="00000000 00000000 00000000 00000001"/>
+    <ulUnicodeRange2 value="00000000 00000000 00000000 00000000"/>
+    <ulUnicodeRange3 value="00000000 00000000 00000000 00000000"/>
+    <ulUnicodeRange4 value="00000000 00000000 00000000 00000000"/>
+    <achVendID value="PfEd"/>
+    <fsSelection value="00000000 10000000"/>
+    <usFirstCharIndex value="65"/>
+    <usLastCharIndex value="65"/>
+    <sTypoAscender value="2048"/>
+    <sTypoDescender value="0"/>
+    <sTypoLineGap value="184"/>
+    <usWinAscent value="2048"/>
+    <usWinDescent value="410"/>
+    <ulCodePageRange1 value="00000000 00000000 00000000 00000001"/>
+    <ulCodePageRange2 value="00000000 00000000 00000000 00000000"/>
+    <sxHeight value="0"/>
+    <sCapHeight value="2048"/>
+    <usDefaultChar value="0"/>
+    <usBreakChar value="32"/>
+    <usMaxContext value="1"/>
+  </OS_2>
+
+  <hmtx>
+    <mtx name=".notdef" width="0" lsb="0"/>
+    <mtx name="A" width="2048" lsb="0"/>
+  </hmtx>
+
+  <cmap>
+    <tableVersion version="0"/>
+    <cmap_format_4 platformID="0" platEncID="3" language="0">
+      <map code="0x41" name="A"/><!-- LATIN CAPITAL LETTER A -->
+    </cmap_format_4>
+    <cmap_format_4 platformID="3" platEncID="1" language="0">
+      <map code="0x41" name="A"/><!-- LATIN CAPITAL LETTER A -->
+    </cmap_format_4>
+  </cmap>
+
+  <loca>
+    <!-- The 'loca' table will be calculated by the compiler -->
+  </loca>
+
+  <glyf>
+
+    <!-- The xMin, yMin, xMax and yMax values
+         will be recalculated by the compiler. -->
+
+    <TTGlyph name=".notdef"/><!-- contains no outline data -->
+
+    <TTGlyph name="A" xMin="0" yMin="0" xMax="2048" yMax="2048">
+      <contour>
+        <pt x="0" y="0" on="1"/>
+        <pt x="0" y="2048" on="1"/>
+        <pt x="2048" y="2048" on="1"/>
+        <pt x="2048" y="0" on="1"/>
+      </contour>
+      <instructions><assembly>
+        </assembly></instructions>
+    </TTGlyph>
+
+  </glyf>
+
+  <name>
+    <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
+      Untitled
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
+      Regular
+    </namerecord>
+  </name>
+
+  <post>
+    <formatType value="3.0"/>
+    <italicAngle value="0.0"/>
+    <underlinePosition value="-256"/>
+    <underlineThickness value="102"/>
+    <isFixedPitch value="0"/>
+    <minMemType42 value="0"/>
+    <maxMemType42 value="0"/>
+    <minMemType1 value="0"/>
+    <maxMemType1 value="0"/>
+  </post>
+
+  <gasp>
+    <gaspRange rangeMaxPPEM="65535" rangeGaspBehavior="2"/>
+  </gasp>
+
+  <GDEF>
+    <Version value="1.0"/>
+    <GlyphClassDef Format="1">
+      <ClassDef glyph="A" class="1"/>
+    </GlyphClassDef>
+  </GDEF>
+
+  <SVG>
+
+    <svgDoc endGlyphID="1" startGlyphID="1">
+      <![CDATA[<svg xmlns="http://www.w3.org/2000/svg" id="glyph1">
+          <g>
+            <path fill="#090" d="M0 0h200v200H0z"/>
+            <circle fill="#F00" cx="100" cy="100" r="100"/>
+            <path fill="#FF0" d="M40 160h120L100 40z"/>
+          </g>
+      </svg>]]>
+    </svgDoc>
+  </SVG>
+
+</ttFont>
