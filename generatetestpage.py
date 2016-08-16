@@ -36,6 +36,7 @@ for key in sorted(glyphs):
     html += '<tr>'
     html += '<td class="glyph" contenteditable>'+ character +'</td>'
     html += '<td class="image"><img src="'+ glyphs[key]['file'] +'?v='+ repr(random.random()) +'"></td>'
+    html += '<td class="iframe"><iframe sandbox="" src="'+ glyphs[key]['file'] +'?v='+ repr(random.random()) +'"></iframe></td>'
     html += '<td class="inline">'+ glyphs[key]['content'] +'</td>'
     html += '<td class="info"><a href="'+ glyphs[key]['file'] +'">'+ key +'</a>'
     html += ' ('+ glyphs[key]['char'] +'): '+ glyphs[key]['desc'] +'</td>'
@@ -59,7 +60,8 @@ print """
   }
   .glyph,
   .inline,
-  .image {
+  .image,
+  .iframe {
     weidth: 3em;
     padding: 20px;
     background: #9ef;
@@ -74,6 +76,11 @@ print """
     width: 3em;
     vertical-align: bottom;
   }
+  .iframe iframe {
+    width: 3em;
+    height: 3em;
+    border: none;
+  }
   </style>
 </head>
 <body>
@@ -86,6 +93,7 @@ print """
   <tr>
     <th>Glyph</th>
     <th>Image</th>
+    <th>Iframe</th>
     <th>Inline</th>
     <th>Description</th>
   </tr>
