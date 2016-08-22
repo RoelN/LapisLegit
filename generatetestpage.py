@@ -34,7 +34,7 @@ for key in sorted(glyphs):
         # Crashes Firefox, so show safe character
         character = "!"
     html += '<tr>'
-    html += '<td class="glyph" contenteditable>'+ character +'</td>'
+    html += '<td class="glyph"><span contenteditable>'+ character +'</span></td>'
     html += '<td class="image"><img src="'+ glyphs[key]['file'] +'?v='+ repr(random.random()) +'"></td>'
     html += '<td class="iframe"><iframe sandbox="" src="'+ glyphs[key]['file'] +'?v='+ repr(random.random()) +'"></iframe></td>'
     html += '<td class="inline">'+ glyphs[key]['content'] +'</td>'
