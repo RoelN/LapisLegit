@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <path d="M0 0h200v200H0z"/>
+  <circle cx="100" cy="100" r="100"/>
+  <path d="M40 160h120L100 40z"/>
+</svg>
+<!--
+  Inherit CSS text color (purple) when no fill color has been explicitly set
+-->

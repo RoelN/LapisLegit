@@ -33,7 +33,7 @@ for key in sorted(glyphs):
     if character == "Q":
         # Crashes Firefox, so show safe character
         character = "!"
-    html += '<tr>'
+    html += '<tr class="glyph-'+ glyphs[key]['char'] +'">'
     html += '<td class="glyph"><span contenteditable>'+ character +'</span></td>'
     html += '<td class="image"><img src="'+ glyphs[key]['file'] +'?v='+ repr(random.random()) +'"></td>'
     html += '<td class="iframe"><iframe sandbox="" src="'+ glyphs[key]['file'] +'?v='+ repr(random.random()) +'"></iframe></td>'
@@ -80,6 +80,9 @@ print """
     width: 3em;
     height: 3em;
     border: none;
+  }
+  .glyph-W .glyph {
+    color: purple;
   }
   </style>
 </head>
