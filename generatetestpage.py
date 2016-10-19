@@ -81,7 +81,9 @@ print """
     height: 3em;
     border: none;
   }
-  .glyph-W .glyph {
+  .glyph-W .glyph,
+  .glyph-X .glyph,
+  .glyph-Y .glyph {
     color: purple;
   }
   </style>

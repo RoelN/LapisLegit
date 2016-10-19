@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <style>
+    * {
+      fill: black;
+    }
+  </style>
+  <path fill="context-fill" d="M0 0h200v200H0z"/>
+  <circle cx="100" cy="100" r="100"/>
+  <path fill="context-fill" d="M40 160h120L100 40z"/>
+</svg>
+<!--
+  Inherit CSS text color (purple) when context-fill is used as fill value on each path, except for the circle (should be black)
+-->
