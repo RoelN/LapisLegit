@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+    <style>
+    .st060 {
+        fill: url(#SVGID_1_)
+    }
+    </style>
+    <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="100" y1="200" x2="100">
+        <stop offset="0" stop-color="#F00" stop-opacity="0" />
+        <stop offset="1" stop-color="#090" />
+    </linearGradient>
+    <path class="st060" d="M0 0h200v200H0V0z" />
+</svg>
+<!--
+  Gradient on sqaure from red (opacity 0) to green (opacity 1)
+-->

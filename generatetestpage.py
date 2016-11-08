@@ -30,6 +30,8 @@ for filename in os.listdir(svgPath):
 html = ''
 for key in sorted(glyphs):
     character = glyphs[key]['char']
+    # if character == "W" or character == "X" or character == "Y":
+        # continue
     if character == "Q":
         # Crashes Firefox, so show safe character
         character = "!"
