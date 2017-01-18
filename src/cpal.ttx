@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="3.5">
+
+  <CPAL>
+    <version value="0"/>
+    <numPaletteEntries value="3"/>
+    <palette index="0">
+      <color index="0" value="#FF0000FF"/>
+      <color index="1" value="#00FF00FF"/>
+      <color index="2" value="#0000FFFF"/>
+    </palette>
+  </CPAL>
+
+</ttFont>

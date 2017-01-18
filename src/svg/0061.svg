@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <path fill="var(--color0)" d="M0 0h200v200H0z"/>
+  <circle fill="var(--color1)" cx="100" cy="100" r="100"/>
+  <path fill="var(--color2)" d="M40 160h120L100 40z"/>
+</svg>
+<!--
+  Use CPAL table
+-->
