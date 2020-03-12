@@ -4,5 +4,5 @@
   <path fill="var(--color2)" d="M40 160h120L100 40z"/>
 </svg>
 <!--
-  Use CPAL table
+  Set fill colors through CSS variables declared in HTML document
 -->

@@ -88,6 +88,11 @@ print """
   .glyph-Y .glyph {
     color: purple;
   }
+  :root {
+    --color0: hotpink;
+    --color1: blue;
+    --color2: yellow;
+  }
   </style>
 </head>
 <body>
