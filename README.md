@@ -13,7 +13,3 @@ Run `./buildfont.sh` to generate the font and an HTML test page. It uses [scfbui
 ## What does "LapisLegit" mean?
 
 Lapis legit is a [frigging delicious cake made of colorful layers](https://www.google.com/search?tbm=isch&q=lapis+legit)!
-
-## License
-
-LapisLegit is released under the [MIT license](https://github.com/RoelN/LapisLegit/blob/master/LICENSE.md).
